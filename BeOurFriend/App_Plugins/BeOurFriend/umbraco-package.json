@@ -1,0 +1,25 @@
+
+{
+    "$schema": "../../umbraco-package-schema.json",
+    "name": "Our.Umbraco.BeOurFriend",
+    "version": "0.1.0",
+    "extensions": [
+      {
+        "type": "dashboard",
+        "alias": "Our.Umbraco.BeOurFriend",
+        "name": "Our.Umbraco.BeOurFriend",
+        "js": "/App_Plugins/BeOurFriend/test.js",
+        "weight": -1,
+        "meta": {
+          "label": "Be Our Jonas Friend",
+          "pathname": "be-our-friend"
+        },
+        "conditions": [
+          {
+            "alias": "Umb.Condition.SectionAlias",
+            "match": "Umb.Section.Content"
+          }
+        ]
+      }
+    ]
+  }
