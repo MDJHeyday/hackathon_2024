@@ -8,10 +8,10 @@
         "type": "dashboard",
         "alias": "Our.Umbraco.BeOurFriend",
         "name": "Our.Umbraco.BeOurFriend",
-        "js": "/App_Plugins/BeOurFriend/bof_fronten/.next/server/pages/_app.js",
+        "element": "/App_Plugins/BeOurFriend/BofFrontend/dist/boffrontend.js",
         "weight": -1,
         "meta": {
-          "label": "Be Our Friend",
+          "label": "Be Our KIM Friend",
           "pathname": "be-our-friend"
         },
         "conditions": [
