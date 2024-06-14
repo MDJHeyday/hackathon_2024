@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33020.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B046DE6-6634-41C3-8D0E-41ED6CFD3FCF}"
+	ProjectSection(SolutionItems) = preProject
+		..\LICENSE = ..\LICENSE
+		..\.github\README.md = ..\.github\README.md
+		..\umbraco-marketplace.json = ..\umbraco-marketplace.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeOurHelper", "BeOurHelper\BeOurHelper.csproj", "{6F2695D4-2084-4816-B570-FB7B2F5A70FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeOurHelper.TestSite", "BeOurHelper.TestSite\BeOurHelper.TestSite.csproj", "{3642E35B-4220-4121-A1FD-8F4833D7F477}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F2695D4-2084-4816-B570-FB7B2F5A70FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2695D4-2084-4816-B570-FB7B2F5A70FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2695D4-2084-4816-B570-FB7B2F5A70FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2695D4-2084-4816-B570-FB7B2F5A70FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3642E35B-4220-4121-A1FD-8F4833D7F477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3642E35B-4220-4121-A1FD-8F4833D7F477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3642E35B-4220-4121-A1FD-8F4833D7F477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3642E35B-4220-4121-A1FD-8F4833D7F477}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F07004F-9903-4AEB-9ED0-BE57A0326D20}
+	EndGlobalSection
+EndGlobal
