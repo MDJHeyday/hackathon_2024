@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <Folder Include="App_Plugins\BeOurFriend\" />
+    <Folder Include="wwwroot\media\" />
   </ItemGroup>
 
   <PropertyGroup>
